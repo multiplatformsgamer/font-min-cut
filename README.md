@@ -16,3 +16,18 @@
 2. `./node_modules/.bin/font-spider index.html`，会得到提取之后的字体ttf。
 
 3. `font-sipder`提取之后缺少空格，可以使用[fontcreator](http://www.high-logic.com/font-editor/fontcreator.html)对字体就行编辑，手动添加空格或者从文字的字体文件中copy空格过来。
+
+使用注意：
+将字体放在.font-spider目录下。index.html里面的src即使要精简的字库，又是要生成的字库。直接生成到root目录。
+
+安装nodejs环境之后，
+执行：
+```
+npm install font-spider -g
+```
+即可安装font-spider.
+
+执行程序：
+```
+font-spider index.html
+````
